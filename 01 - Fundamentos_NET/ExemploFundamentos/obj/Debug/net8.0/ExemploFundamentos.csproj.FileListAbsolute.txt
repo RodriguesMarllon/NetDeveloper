@@ -1,0 +1,15 @@
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\bin\Debug\net8.0\ExemploFundamentos.exe
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\bin\Debug\net8.0\ExemploFundamentos.deps.json
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\bin\Debug\net8.0\ExemploFundamentos.runtimeconfig.json
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\bin\Debug\net8.0\ExemploFundamentos.dll
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\bin\Debug\net8.0\ExemploFundamentos.pdb
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.AssemblyInfoInputs.cache
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.AssemblyInfo.cs
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.csproj.CoreCompileInputs.cache
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.sourcelink.json
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.dll
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\obj\Debug\net8.0\refint\ExemploFundamentos.dll
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.pdb
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.genruntimeconfig.cache
+C:\DIO\NetDeveloper\01 - Fundamentos_NET\ExemploFundamentos\obj\Debug\net8.0\ref\ExemploFundamentos.dll
