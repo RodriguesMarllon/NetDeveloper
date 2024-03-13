@@ -1,13 +1,41 @@
 ﻿using ExemploFundamentos.Models;
 
-string a = "15-";
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
-//int b = 0;
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
 
-int.TryParse(a, out int b);
+if (possivelVenda)
+{
+    Console.WriteLine("Venda realizada.");
+}
+else
+{
+    Console.WriteLine("Desculpa. Não temos a quantidade desejada no estoque.");
+}
 
-Console.WriteLine(b);
-Console.WriteLine("Conversão realizada com sucesso!");
+
+
+
+
+
+
+
+
+
+
+
+// string a = "15-";
+
+// //int b = 0;
+
+// int.TryParse(a, out int b);
+
+// Console.WriteLine(b);
+// Console.WriteLine("Conversão realizada com sucesso!");
 
 
 // int inteiro = 5;
