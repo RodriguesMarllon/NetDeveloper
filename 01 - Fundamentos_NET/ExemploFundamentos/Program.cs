@@ -1,14 +1,36 @@
 ﻿using ExemploFundamentos.Models;
 
-int a = 10;
-int b = 20;
+string a = "15-";
 
-int c = a + b;
+//int b = 0;
 
-c += 5;
+int.TryParse(a, out int b);
 
-Console.WriteLine(c);
+Console.WriteLine(b);
+Console.WriteLine("Conversão realizada com sucesso!");
 
+
+// int inteiro = 5;
+// string a = inteiro.ToString();
+
+// Console.WriteLine(a);
+
+
+// // Cast - Casting
+// int a = Convert.ToInt32(null);
+// // int a = int.Parse("5c");
+
+// Console.WriteLine(a);
+
+
+// int a = 10;
+// int b = 20;
+
+// int c = a + b;
+
+// c += 5;
+
+// Console.WriteLine(c);
 
 
 // DateTime dataAtual = DateTime.Now.AddDays(5);
