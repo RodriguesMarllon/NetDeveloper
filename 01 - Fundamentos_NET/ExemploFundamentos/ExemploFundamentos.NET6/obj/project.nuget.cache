@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PmNYQmVFi1QN+HiaBxiqBvrNKYsdnhcchJsAIIDkr5cQbpfVIeW4BB3B5A6gstbhLjZpWD4v69/KpG+8xk27yg==",
+  "success": true,
+  "projectFilePath": "C:\\DIO\\NetDeveloper\\01 - Fundamentos_NET\\ExemploFundamentos\\ExemploFundamentos.NET6\\ExemploFundamentos.NET6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marllon Rodrigues\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Marllon Rodrigues\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Marllon Rodrigues\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Marllon Rodrigues\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
