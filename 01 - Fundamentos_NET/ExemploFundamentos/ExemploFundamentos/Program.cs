@@ -19,6 +19,8 @@ c.Somar(3, 5);
 c.Subtrair(3, 5);
 
 
+p.CadastrarNoERPDaEmpresa();
+
 
 
 
