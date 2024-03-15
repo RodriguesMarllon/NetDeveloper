@@ -1,9 +1,9 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
-DateTime data = DateTime.Now;
+DateTime data = DateTime.Parse("04/17/2022 6:00");
 
-Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+Console.WriteLine(data);
 
 
 
