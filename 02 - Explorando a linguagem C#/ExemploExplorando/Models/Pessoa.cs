@@ -12,13 +12,15 @@ namespace ExemploExplorando.Models
 
         }
 
-        public Pessoa(string nome, string Sobrenome)
+        public Pessoa(string nome, string sobrenome)
         {
-
+            Nome = nome;
+            Sobrenome = sobrenome;
         }
 
         private string _nome;
         private int _idade;
+
         public string Nome
         {
             get => _nome.ToUpper();
