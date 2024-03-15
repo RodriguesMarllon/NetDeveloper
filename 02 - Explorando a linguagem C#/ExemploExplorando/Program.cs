@@ -5,7 +5,7 @@ using System.Globalization;
 
 decimal valorMonetario = 1582.40M;
 
-Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-br")));
+Console.WriteLine(valorMonetario.ToString("C8"));
 
 
 // string numero1 = "10";
