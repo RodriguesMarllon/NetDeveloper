@@ -1,11 +1,11 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-br");
+// CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-br");
 
 decimal valorMonetario = 1582.40M;
 
-Console.WriteLine($"{valorMonetario:C}");
+Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-br")));
 
 
 // string numero1 = "10";
