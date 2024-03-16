@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ExemploPOO.Models
 {
-    public class Diretor
+    public class Diretor : Professor
     {
 
     }
