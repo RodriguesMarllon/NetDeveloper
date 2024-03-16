@@ -1,8 +1,82 @@
-﻿using ExemploPOO.Models;
+﻿using System.Net.Http.Headers;
+using ExemploPOO.Interfaces;
+using ExemploPOO.Models;
 
-Pessoa p1 = new Pessoa("Leonardo");
-Aluno a1 = new Aluno("Eduardo");
-a1.Apresentar();
+ICalculadora calc = new Calculadora();
+
+Console.WriteLine(calc.Multiplicar(3, 9));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Computador c = new Computador();
+// Console.WriteLine(c.ToString());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Leonardo");
+// Aluno a1 = new Aluno("Eduardo");
+// a1.Apresentar();
 
 
 
