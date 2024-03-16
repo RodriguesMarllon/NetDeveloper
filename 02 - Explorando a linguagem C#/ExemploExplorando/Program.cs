@@ -3,12 +3,18 @@ using System.Globalization;
 
 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-br");
 
-string dataString = "2022-13-17 18:00";
+string dataString = "2022-04-17 18:00";
 
-DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
+bool sucesso = DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
 
-
-Console.WriteLine(data);
+if (sucesso)
+{
+    Console.WriteLine($"Conversão com sucesso! Data: {data}");
+}
+else
+{
+    Console.WriteLine($"{dataString} não é uma data válida");
+}
 
 
 
