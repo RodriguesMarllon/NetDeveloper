@@ -7,8 +7,11 @@ a1.Email = "leonardo@gmail.com";
 a1.Nota = 1;
 a1.Apresentar();
 
-
-
+Professor p1 = new Professor();
+p1.Nome = "Eduardo";
+p1.Idade = 30;
+p1.Salario = 1000;
+p1.Apresentar();
 
 
 
