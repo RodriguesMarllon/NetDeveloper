@@ -2,7 +2,10 @@
 using System.Globalization;
 using System.Runtime.CompilerServices;
 
-(int, string, string, decimal) tupla = (1, "Leonardo", "Buta", 10.5M);
+(int Id, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Leonardo", "Buta", 10.5M);
+
+ValueTuple<int, string, string, decimal> outroExemplo = (1, "Leonardo", "Buta", 1.80M);
+var outroExemploTuplaCreate = Tuple.Create(1, "Leonardo", "Buta", 1.80M);
 
 Console.WriteLine($"Id: {tupla.Item1}");
 Console.WriteLine($"Nome: {tupla.Item2}");
