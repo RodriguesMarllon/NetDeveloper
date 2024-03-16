@@ -1,5 +1,8 @@
-﻿using ExemploExplorando.Models;
+﻿using System.Threading.Channels;
+using ExemploExplorando.Models;
 using Newtonsoft.Json;
+
+
 
 string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
@@ -7,7 +10,9 @@ List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArqu
 
 foreach (Venda venda in listaVenda)
 {
-    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}," +
+                      $" Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}," +
+                      $"{(venda.Desconto.HasValue ? $" Desconto de: {venda.Desconto}" : "")}");
 }
 
 
@@ -17,6 +22,23 @@ foreach (Venda venda in listaVenda)
 
 
 
+
+
+
+
+
+
+
+// bool? desejaReceberEmail = null;
+
+// if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
+// {
+//     Console.WriteLine("O usuário optou por recer e-mail.");
+// }
+// else
+// {
+//     Console.WriteLine("O usuário não respondeu ou optou por não receber e-mail");
+// }
 
 
 
