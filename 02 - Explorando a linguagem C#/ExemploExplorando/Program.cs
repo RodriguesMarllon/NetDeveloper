@@ -3,17 +3,59 @@ using System.Threading.Channels;
 using ExemploExplorando.Models;
 using Newtonsoft.Json;
 
-MeuArray<int> arrayInteiro = new MeuArray<int>();
 
-arrayInteiro.AdicionarElementoArray(30);
+int numero = 20;
+bool ehPar = false;
 
-Console.WriteLine(arrayInteiro[0]);
+// IF Ternário
 
-MeuArray<string> arrayString = new MeuArray<string>();
+ehPar = numero.EhPar();
 
-arrayString.AdicionarElementoArray("Teste");
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "ímpar"));
 
-Console.WriteLine(arrayString[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+// arrayInteiro.AdicionarElementoArray(30);
+
+// Console.WriteLine(arrayInteiro[0]);
+
+// MeuArray<string> arrayString = new MeuArray<string>();
+
+// arrayString.AdicionarElementoArray("Teste");
+
+// Console.WriteLine(arrayString[0]);
 
 
 
