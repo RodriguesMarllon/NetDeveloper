@@ -1,7 +1,12 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
-DateTime data = DateTime.Parse("04/17/2022 6:00");
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-br");
+
+string dataString = "2022-13-17 18:00";
+
+DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
+
 
 Console.WriteLine(data);
 
