@@ -1,24 +1,35 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-br");
 
-string dataString = "2022-04-17 18:00";
+string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
 
-bool sucesso = DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
-
-if (sucesso)
+foreach (string linha in linhas)
 {
-    Console.WriteLine($"Conversão com sucesso! Data: {data}");
-}
-else
-{
-    Console.WriteLine($"{dataString} não é uma data válida");
+    Console.WriteLine(linha);
 }
 
 
 
 
+
+
+
+
+// CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-br");
+
+// string dataString = "2022-04-17 18:00";
+
+// bool sucesso = DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
+
+// if (sucesso)
+// {
+//     Console.WriteLine($"Conversão com sucesso! Data: {data}");
+// }
+// else
+// {
+//     Console.WriteLine($"{dataString} não é uma data válida");
+// }
 
 
 
