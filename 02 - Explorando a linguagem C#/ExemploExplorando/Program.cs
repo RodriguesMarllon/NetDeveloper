@@ -1,18 +1,60 @@
-﻿using System.Threading.Channels;
+﻿using System.Linq.Expressions;
+using System.Threading.Channels;
 using ExemploExplorando.Models;
 using Newtonsoft.Json;
 
-dynamic variavelDinamica = 4;
+MeuArray<int> arrayInteiro = new MeuArray<int>();
 
-Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+arrayInteiro.AdicionarElementoArray(30);
 
-variavelDinamica = "Texto";
+Console.WriteLine(arrayInteiro[0]);
 
-Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+MeuArray<string> arrayString = new MeuArray<string>();
 
-variavelDinamica = true;
+arrayString.AdicionarElementoArray("Teste");
 
-Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+Console.WriteLine(arrayString[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// dynamic variavelDinamica = 4;
+
+// Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+// variavelDinamica = "Texto";
+
+// Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+// variavelDinamica = true;
+
+// Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
 
 
 
