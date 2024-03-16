@@ -2,18 +2,49 @@
 using ExemploExplorando.Models;
 using Newtonsoft.Json;
 
+var tipoAnonimo = new { Nome = "Leonardo", Sobrenome = "Buta", Altura = 1.80M };
+
+Console.WriteLine("Nome: " + tipoAnonimo.Nome);
+Console.WriteLine("Sobrenome: " + tipoAnonimo.Sobrenome);
+Console.WriteLine("Altura: " + tipoAnonimo.Altura);
 
 
-string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
-List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
 
-foreach (Venda venda in listaVenda)
-{
-    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}," +
-                      $" Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}," +
-                      $"{(venda.Desconto.HasValue ? $" Desconto de: {venda.Desconto}" : "")}");
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+// foreach (Venda venda in listaVenda)
+// {
+//     Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}," +
+//                       $" Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}," +
+//                       $"{(venda.Desconto.HasValue ? $" Desconto de: {venda.Desconto}" : "")}");
+// }
 
 
 
