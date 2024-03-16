@@ -2,11 +2,33 @@
 using ExemploExplorando.Models;
 using Newtonsoft.Json;
 
-var tipoAnonimo = new { Nome = "Leonardo", Sobrenome = "Buta", Altura = 1.80M };
 
-Console.WriteLine("Nome: " + tipoAnonimo.Nome);
-Console.WriteLine("Sobrenome: " + tipoAnonimo.Sobrenome);
-Console.WriteLine("Altura: " + tipoAnonimo.Altura);
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+var listaAnonimo = listaVenda.Select(x => new { x.Produto, x.Preco });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var tipoAnonimo = new { Nome = "Leonardo", Sobrenome = "Buta", Altura = 1.80M };
+
+// Console.WriteLine("Nome: " + tipoAnonimo.Nome);
+// Console.WriteLine("Sobrenome: " + tipoAnonimo.Sobrenome);
+// Console.WriteLine("Altura: " + tipoAnonimo.Altura);
 
 
 
