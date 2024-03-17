@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ivB/YzrSEr25eQJe52LXAG83VC1I6I2oGKw4jiYYLibo2wDiVpROMv65neo1xdcahGFWmdRQISspofRs8lSrbg==",
+  "success": true,
+  "projectFilePath": "C:\\DIO\\NetDeveloper\\05 - Integrando APIs NET C# com Entity Framework\\ModuloAPI\\ModuloAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marllon Rodrigues\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Marllon Rodrigues\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Marllon Rodrigues\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Marllon Rodrigues\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Marllon Rodrigues\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Marllon Rodrigues\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
