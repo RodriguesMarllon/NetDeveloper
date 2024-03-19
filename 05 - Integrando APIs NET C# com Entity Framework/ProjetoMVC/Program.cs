@@ -1,6 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using ProjetoMVC.Context;
+using Microsoft.Extensions.Options;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<AgendaContext>(Options =>
+    Options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadroa")));
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
