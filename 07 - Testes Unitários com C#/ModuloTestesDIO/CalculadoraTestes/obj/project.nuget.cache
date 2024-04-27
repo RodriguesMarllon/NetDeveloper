@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CU2iYARX94kB6NTCtKXTWHlLd/tuneb1mPF073XGsxgJcW6kxZD4R4fnZKGaXxdn7EJ/qIrts65816xf+Mu+eA==",
+  "dgSpecHash": "SoG5M3jtBLakbOwq8RnWOKhBRKbeGRd+p29uH/JT4eCiFOs0Y0SnjpMBXDuM+w3znirWWR7yhcpzdC15vzXjLQ==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\calculadoraTestes\\calculadoraTestes.csproj",
+  "projectFilePath": "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\calculadoraTestes\\CalculadoraTestes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marll\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\marll\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
