@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5OX9V9MX9J0zZTyojkDjgQTyaUv/pfhqJcRSUxnUQhXzZ2IDKSgnpGaXJazF4tu0COk32ppBLUbaO8eqS9/SoQ==",
+  "dgSpecHash": "CEqm5Csam14sdmZOG4xUlfhM78N8xc9XQMPI/R34nPkMsOcC9E1+kT2cBt087UFwl7b606wXE7yGC+goidrWZA==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\Calculadora\\calculadora.csproj",
+  "projectFilePath": "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\calculadora\\calculadora.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
