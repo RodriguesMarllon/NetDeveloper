@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\CalculadoraTestes\\calculadoraTEstes.csproj": {}
+    "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\CalculadoraTestes\\calculadoraTestes.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\CalculadoraTestes\\calculadoraTEstes.csproj": {
+    "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\CalculadoraTestes\\calculadoraTestes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\CalculadoraTestes\\calculadoraTEstes.csproj",
-        "projectName": "calculadoraTEstes",
-        "projectPath": "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\CalculadoraTestes\\calculadoraTEstes.csproj",
+        "projectUniqueName": "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\CalculadoraTestes\\calculadoraTestes.csproj",
+        "projectName": "calculadoraTestes",
+        "projectPath": "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\CalculadoraTestes\\calculadoraTestes.csproj",
         "packagesPath": "C:\\Users\\marll\\.nuget\\packages\\",
         "outputPath": "C:\\projetos\\DIO\\NetDeveloper\\07 - Testes Unitários com C#\\ModuloTestesDIO\\CalculadoraTestes\\obj\\",
         "projectStyle": "PackageReference",
