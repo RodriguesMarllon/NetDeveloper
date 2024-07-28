@@ -1,9 +1,20 @@
 ﻿using ExemploPOO.Models;
 
-Aluno a1 = new Aluno();
+Aluno a1 = new Aluno
+{
+    Nome = "Marllon",
+    Idade = 19,
+    Email = "marllon@gmail.com",
+    Nota = 10
+};
+a1.Apresentar();
 
-a1.Nome = "Marllon";
-a1.Idade = 20;
-a1.Email = "marllon@gmail.com";
-a1.Nota = 10;
 
+Professor p1 = new Professor
+{
+    Nome = "Eduardo",
+    Idade = 30,
+    Email = "eduardo@gmail.com",
+    Salario = 1000
+};
+p1.Apresentar();
